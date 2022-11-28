@@ -16,11 +16,15 @@ def test_calc_multiply():
     assert output == 8
 
 
-# def test_calc_multiply_fail():
-#    output = multiply_number(2, 4)
-#   assert output == 16
-
-
 def test_calc_divide():
     output = divide_numbers(10, 2)
     assert output == 5
+
+def test_exponent():
+    output = exponent_numbers(2,2)
+    assert output == 4
+
+def test_set1():
+    output = set1(2)
+    assert output == 1
+
