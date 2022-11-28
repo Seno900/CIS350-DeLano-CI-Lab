@@ -28,3 +28,7 @@ def test_calc_divide():
 # def test_calc_divide_error():
 #   output = divide_numbers(10,2)
 #   assert output == 7
+
+# def test_calc_divide_error():
+#   output = divide_numbers(10,2)
+#   assert output == 7
